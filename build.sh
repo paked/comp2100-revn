@@ -1,9 +1,11 @@
 #!/bin/bash
 
+PROJ=red-black-tree
+
 pushd build
 
-javac -d . ../src/binary-search-tree/*.java
+javac -d . ../src/$PROJ/*.java
 
-java BinarySearchTreeTest
+java RedBlackTreeDemo
 
 popd
