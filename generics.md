@@ -4,6 +4,10 @@
 
 `<? extends X>`
 
+_declaring a generic class_
+`public abstract class BinaryTree<T extends Comparable<T>>`
+
+_sublcass a generic class_
 `public class EmptyBinaryTree<T extends Comparable<T>> extends BinaryTree<T>`
 
 ```
