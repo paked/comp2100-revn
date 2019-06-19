@@ -13,6 +13,7 @@ When put in `.java` files, it is in a comment like:
 
 Keywords:
 - `spec_public`
+  - declares a protected or private variable public for specification purposes.
 - `invariant`
   - true at the end of the constructor
   - true at the end of all methods
