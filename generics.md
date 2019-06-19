@@ -1,10 +1,10 @@
 # Generic generics
 
-<? super X> consumers
+`<? super X> consumers`
 
-<? extends X>
+`<? extends X>`
 
-public class EmptyBinaryTree<T extends Comparable<T>> extends BinaryTree<T>
+`public class EmptyBinaryTree<T extends Comparable<T>> extends BinaryTree<T>`
 
 ```
 public static <T> void swap(ArrayList<T> arr, int a, int b) {
